@@ -1,33 +1,18 @@
 #include "main.h"
 
 /**
- * print_numbers - print 0-9
- * return: void
+ * print_numbers - program prints numbers, from 0 to 9,
+ * followed by a new line
  */
 
 void print_numbers(void)
 {
-	char c;
+	int x;
 
-	for (c = '0'; c <= '9'; c++)
+	for (x = 0; x < 10; x++)
 	{
-		_putchar(c);
+		_putchar(x + '0');
 	}
+
 	_putchar('\n');
-}
-
-
-3-main.c
-#include "main.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-
-int main(void)
-{
-    print_numbers();
-    return (0);
 }
