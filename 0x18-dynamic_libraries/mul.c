@@ -1,4 +1,3 @@
-#include <stdlib.h>
 
 /**
  * mul - multiply two integers
@@ -6,7 +5,7 @@
  * @b: second int
  * Return: multiply
  */
-int mulitply(int a, int b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
